@@ -1,0 +1,154 @@
+/* Applies following to everything on the page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Applies background color listed below to 'body' of the page */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Applies the following to lines 11-26 of the HTML file */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Applies the following to everything in <h1> element */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Applies the following to the 'seo' in Horisean header */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Applies the following to lines 12-30 of the HTML file */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 20px;
+}
+
+/* Makes the unordered list not a list */
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Applies the following to anything with an <a> element */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Applies the following to anything with the <p> element */
+p {
+    font-size: 16px;
+}
+
+/* Applies the following parameters to the primary image on the page */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Moves the image to the left of the parent section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Moves the image to the right of the parent section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Applies the following to lines 34-60 in the HTML file */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Applies the following to everything in the sidebar of the page */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #2589bd;
+}
+
+/* Applies the following to the tags and attributes in the sidebar*/
+.lead-brand-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Applies the following to the headers in the sidebar*/
+.lead-brand-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Applies the following to the images in the sidebar*/
+.lead-brand-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Applies the following to the article section of the page */
+.opt-man-mark {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Applies the following to the images in the article section of the page */
+.opt-man-mark img {
+    max-height: 200px;
+}
+
+ /* Applies the following for the headers in the article section of the page */
+.opt-man-mark h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Applies the following the footer of the page */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    text-align: center;
+}
+
+/* Applies the following to the header in the footer of the page */
+.footer h2 {
+    font-size: 20px;
+}
